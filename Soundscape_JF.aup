@@ -1,16 +1,43 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="Soundscape_JF_data" version="1.3.0" audacityversion="2.1.0" sel0="0.0000000000" sel1="12.8445249778" vpos="0" h="0.0000000000" zoom="3.5034382414" rate="48000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Soundscape_JF_data" version="1.3.0" audacityversion="2.1.0" sel0="2.3637414966" sel1="27.7797414966" vpos="0" h="0.0000000000" zoom="224.2200474496" rate="48000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds">
 	<tags>
 		<tag name="Interpreted, remixed, or otherwise modified by" value="texasradiofish"/>
-		<tag name="ARTIST" value="texasradiofish"/>
-		<tag name="Copyright message" value="2014 texasradiofish Licensed to the public under http://creativecommons.org/licenses/nc-sampling+/1.0/ Verify at http://ccmixter.org/files/texasradiofish/48116"/>
-		<tag name="TITLE" value="The Four Stones (ft. fourstones (victor), Electronico, ElRon Xchile, Kara Square, Javolenus, shagrugge, gezortenplotz, Slanesh, FreqMan, hinzebeat, KRAFTWERK2K1, sandyrb, Rutger Muller, gilly11)"/>
-		<tag name="YEAR" value="2014"/>
-		<tag name="ALBUM" value="ccMixter"/>
+		<tag name="ARTIST" value="Jared Frank"/>
+		<tag name="TITLE" value="Soundscape"/>
+		<tag name="YEAR" value="2019"/>
+		<tag name="ALBUM" value="Digital Media"/>
 	</tags>
-	<wavetrack name="Sony_Battery_AM_Radio_Tuning_1-SailorMoonFan-222190110" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="1.0" pan="0.0">
+	<wavetrack name="texasradiofish_-_The_Four_Stones" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
 		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="104241">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000479.au" len="104241" min="-1.002548" max="0.993039" rms="0.221263"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="3">
+				<controlpoint t="2.212112635073" val="0.333333313465"/>
+				<controlpoint t="2.363726712547" val="0.335294125149"/>
+				<controlpoint t="2.363749388284" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="texasradiofish_-_The_Four_Stones" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="104241">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000f92.au" len="104241" min="-0.513591" max="0.528564" rms="0.107276"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="3">
+				<controlpoint t="2.212112635073" val="0.333333313465"/>
+				<controlpoint t="2.363726712547" val="0.335294125149"/>
+				<controlpoint t="2.363749388284" val="1.000000000000"/>
+			</envelope>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Sony_Battery_AM_Radio_Tuning_1-SailorMoonFan-222190110" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="48000" gain="1.0" pan="0.0">
+		<waveclip offset="2.36374150">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="1219968">
 				<waveblock start="0">
 					<simpleblockfile filename="e0000099.au" len="262144" min="-0.656583" max="0.698167" rms="0.039083"/>
@@ -31,8 +58,8 @@
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="Sony_Battery_AM_Radio_Tuning_1-SailorMoonFan-222190110" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="1.0" pan="0.0">
-		<waveclip offset="0.00000000">
+	<wavetrack name="Sony_Battery_AM_Radio_Tuning_1-SailorMoonFan-222190110" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="48000" gain="1.0" pan="0.0">
+		<waveclip offset="2.36374150">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="1219968">
 				<waveblock start="0">
 					<simpleblockfile filename="e00009a7.au" len="262144" min="-0.656583" max="0.698167" rms="0.039083"/>
@@ -51,70 +78,6 @@
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
-		</waveclip>
-	</wavetrack>
-	<wavetrack name="texasradiofish_-_The_Four_Stones" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
-		<waveclip offset="0.00000000">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="1825207">
-				<waveblock start="0">
-					<simpleblockfile filename="e0000fb9.au" len="262144" min="-1.002548" max="0.993039" rms="0.308762"/>
-				</waveblock>
-				<waveblock start="262144">
-					<simpleblockfile filename="e0000417.au" len="262144" min="-0.98194" max="0.991177" rms="0.30652"/>
-				</waveblock>
-				<waveblock start="524288">
-					<simpleblockfile filename="e0000b9f.au" len="262144" min="-0.969269" max="0.968964" rms="0.235772"/>
-				</waveblock>
-				<waveblock start="786432">
-					<simpleblockfile filename="e00008f3.au" len="262144" min="-0.970619" max="0.983076" rms="0.220825"/>
-				</waveblock>
-				<waveblock start="1048576">
-					<simpleblockfile filename="e0000879.au" len="262144" min="-0.9841" max="0.977134" rms="0.244749"/>
-				</waveblock>
-				<waveblock start="1310720">
-					<simpleblockfile filename="e00008bc.au" len="262144" min="-0.973522" max="0.974848" rms="0.244248"/>
-				</waveblock>
-				<waveblock start="1572864">
-					<simpleblockfile filename="e000149c.au" len="252343" min="-0.984057" max="0.983562" rms="0.185495"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="3">
-				<controlpoint t="6.850413321518" val="0.777777791023"/>
-				<controlpoint t="40.817046040711" val="0.750000000000"/>
-				<controlpoint t="41.387891156463" val="1.000000000000"/>
-			</envelope>
-		</waveclip>
-	</wavetrack>
-	<wavetrack name="texasradiofish_-_The_Four_Stones" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
-		<waveclip offset="0.00000000">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="1825207">
-				<waveblock start="0">
-					<simpleblockfile filename="e000012f.au" len="262144" min="-0.932923" max="0.908431" rms="0.186862"/>
-				</waveblock>
-				<waveblock start="262144">
-					<simpleblockfile filename="e0000f6a.au" len="262144" min="-0.999202" max="0.971466" rms="0.214677"/>
-				</waveblock>
-				<waveblock start="524288">
-					<simpleblockfile filename="e0000588.au" len="262144" min="-0.991305" max="1.00885" rms="0.22696"/>
-				</waveblock>
-				<waveblock start="786432">
-					<simpleblockfile filename="e0000d07.au" len="262144" min="-0.976592" max="0.97223" rms="0.215444"/>
-				</waveblock>
-				<waveblock start="1048576">
-					<simpleblockfile filename="e0000f0b.au" len="262144" min="-0.971363" max="0.971745" rms="0.226426"/>
-				</waveblock>
-				<waveblock start="1310720">
-					<simpleblockfile filename="e000031a.au" len="262144" min="-0.972336" max="0.971644" rms="0.241291"/>
-				</waveblock>
-				<waveblock start="1572864">
-					<simpleblockfile filename="e000187c.au" len="252343" min="-0.992754" max="0.963971" rms="0.163062"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="3">
-				<controlpoint t="6.850413321518" val="0.777777791023"/>
-				<controlpoint t="40.817046040711" val="0.750000000000"/>
-				<controlpoint t="41.387891156463" val="1.000000000000"/>
-			</envelope>
 		</waveclip>
 	</wavetrack>
 </project>
