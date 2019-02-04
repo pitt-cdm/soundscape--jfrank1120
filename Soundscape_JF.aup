@@ -1,8 +1,8 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="Soundscape_JF_data" version="1.3.0" audacityversion="2.1.0" sel0="241.8700292486" sel1="241.8700292486" vpos="0" h="0.0000000000" zoom="8.0993912561" rate="48000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Soundscape_JF_data" version="1.3.0" audacityversion="2.1.0" sel0="21.4837169135" sel1="21.4837169135" vpos="0" h="179.4254493076" zoom="32.9551912664" rate="48000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds">
 	<tags/>
-	<wavetrack name="texasradiofish_-_The_Four_Stones" channel="0" linked="1" mute="0" solo="0" height="54" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+	<wavetrack name="texasradiofish_-_The_Four_Stones" channel="0" linked="1" mute="0" solo="0" height="54" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
 		<waveclip offset="0.00000000">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="104241">
 				<waveblock start="0">
@@ -38,7 +38,7 @@
 			</envelope>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="texasradiofish_-_The_Four_Stones" channel="1" linked="0" mute="0" solo="0" height="54" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+	<wavetrack name="texasradiofish_-_The_Four_Stones" channel="1" linked="0" mute="0" solo="0" height="54" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
 		<waveclip offset="0.00000000">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="104241">
 				<waveblock start="0">
@@ -74,7 +74,7 @@
 			</envelope>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="Sony_Battery_AM_Radio_Tuning_1-SailorMoonFan-222190110" channel="0" linked="1" mute="0" solo="0" height="20" minimized="0" isSelected="0" rate="48000" gain="1.0" pan="0.0">
+	<wavetrack name="Sony_Battery_AM_Radio_Tuning_1-SailorMoonFan-222190110" channel="0" linked="1" mute="0" solo="0" height="150" minimized="1" isSelected="0" rate="48000" gain="1.0" pan="0.0">
 		<waveclip offset="2.36374150">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="230345">
 				<waveblock start="0">
@@ -96,7 +96,7 @@
 			</envelope>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="Sony_Battery_AM_Radio_Tuning_1-SailorMoonFan-222190110" channel="1" linked="0" mute="0" solo="0" height="20" minimized="0" isSelected="0" rate="48000" gain="1.0" pan="0.0">
+	<wavetrack name="Sony_Battery_AM_Radio_Tuning_1-SailorMoonFan-222190110" channel="1" linked="0" mute="0" solo="0" height="150" minimized="1" isSelected="0" rate="48000" gain="1.0" pan="0.0">
 		<waveclip offset="2.36374150">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="230345">
 				<waveblock start="0">
@@ -118,7 +118,7 @@
 			</envelope>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="admiralbob77_-_Turbo_Tornado" channel="0" linked="1" mute="0" solo="0" height="89" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+	<wavetrack name="admiralbob77_-_Turbo_Tornado" channel="0" linked="1" mute="0" solo="0" height="89" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
 		<waveclip offset="7.25975057">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="899562">
 				<waveblock start="0">
@@ -216,33 +216,8 @@
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
-		<waveclip offset="27.65798186">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="270129">
-				<waveblock start="0">
-					<simpleblockfile filename="e000005e.au" len="242737" min="-0.940361" max="0.935925" rms="0.05727"/>
-				</waveblock>
-				<waveblock start="242737">
-					<simpleblockfile filename="e000025d.au" len="27392" min="-0.105401" max="0.111007" rms="0.015226"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="0"/>
-		</waveclip>
-		<waveclip offset="211.62081633">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="571710">
-				<waveblock start="0">
-					<simpleblockfile filename="e00000c1.au" len="262144" min="-0.607917" max="0.712" rms="0.031892"/>
-				</waveblock>
-				<waveblock start="262144">
-					<simpleblockfile filename="e0000f70.au" len="262144" min="-0.990291" max="0.962574" rms="0.059169"/>
-				</waveblock>
-				<waveblock start="524288">
-					<simpleblockfile filename="e0000ab9.au" len="47422" min="-0.050158" max="0.042029" rms="0.010159"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="0"/>
-		</waveclip>
 	</wavetrack>
-	<wavetrack name="admiralbob77_-_Turbo_Tornado" channel="1" linked="0" mute="0" solo="0" height="89" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+	<wavetrack name="admiralbob77_-_Turbo_Tornado" channel="1" linked="0" mute="0" solo="0" height="89" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
 		<waveclip offset="7.25975057">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="899562">
 				<waveblock start="0">
@@ -336,31 +311,6 @@
 				</waveblock>
 				<waveblock start="160325">
 					<simpleblockfile filename="e0000925.au" len="72403" min="-0.298749" max="0.279782" rms="0.014327"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="0"/>
-		</waveclip>
-		<waveclip offset="27.65798186">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="270129">
-				<waveblock start="0">
-					<simpleblockfile filename="e0000b00.au" len="242737" min="-0.940361" max="0.935925" rms="0.05727"/>
-				</waveblock>
-				<waveblock start="242737">
-					<simpleblockfile filename="e0000368.au" len="27392" min="-0.105401" max="0.111007" rms="0.015226"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="0"/>
-		</waveclip>
-		<waveclip offset="211.62081633">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="571710">
-				<waveblock start="0">
-					<simpleblockfile filename="e0000002.au" len="262144" min="-0.607917" max="0.712" rms="0.031892"/>
-				</waveblock>
-				<waveblock start="262144">
-					<simpleblockfile filename="e000052e.au" len="262144" min="-0.990291" max="0.962574" rms="0.059169"/>
-				</waveblock>
-				<waveblock start="524288">
-					<simpleblockfile filename="e0000d56.au" len="47422" min="-0.050158" max="0.042029" rms="0.010159"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
